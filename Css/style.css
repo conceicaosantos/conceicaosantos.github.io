@@ -5,19 +5,18 @@
 body{
     font-family: 'Ubuntu', sans-serif; 
     font-size: 14px; 
-    color#333;
+    color:#333;
 } 
 
 .conteudo{
     width: 80%;
     margin: 0 auto; 
-    background:; 
 }  
 
 .cabecalho{
     display:flex; 
     justify-content: space-between; 
-    padding: 4% 0%
+    padding: 20px 0;
 }
 
 .foto{
@@ -38,10 +37,35 @@ ul{
     margin-bottom: 30px 
 } 
 
-.redes socias {
+.redes-socias {
     width: 200px;
     justify-content: space-between;  
 } 
-.Experiencias{
-    display:flex
+
+.experiencia{
+    display:flex;
+    align-items: center; 
+    justify-content:space-between;
+} 
+.titulo-sessao,.subtitulo-sessao{
+    font-size: 22px;
+    text-transform: uppercase; 
+} 
+.subtitulo-sessao{
+    font-size: 16px;
+}
+
+.esquerda{
+    width:20%; 
+    text-align: right;
+} 
+.direita{
+    width:78%; 
+} 
+
+.rodape{
+    background-color: #333;
+    color: #f1f1f1;
+    text-align: center;
+    
 }
