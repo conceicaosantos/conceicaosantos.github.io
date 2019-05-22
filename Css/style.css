@@ -17,8 +17,7 @@ body{
 .cabecalho{
     display:flex; 
     justify-content: space-between; 
-    padding: 20% 0%
-    
+    padding: 4% 0%
 }
 
 .foto{
@@ -42,5 +41,7 @@ ul{
 .redes socias {
     width: 200px;
     justify-content: space-between;  
-
 } 
+.Experiencias{
+    display:flex
+}
