@@ -66,6 +66,36 @@ ul{
 .rodape{
     background-color: #333;
     color: #f1f1f1;
-    text-align: center;
-    
+    text-align: center; 
 }
+.habilidade-100{ 
+    width: 100%;
+   } 
+   .habilidade-90{ 
+    width: 90%;
+   } 
+   .habilidade-80{ 
+    width: 80%;
+   } 
+   .habilidade-70{ 
+    width: 70%;
+   } 
+   .habilidade-60{ 
+    width: 60%;
+   } 
+.barra{
+    background-color: black;
+    height: 10px; 
+    border-radius: 5px;
+} 
+
+.skill{
+    width: 48%;
+} 
+
+.skill div {
+    display: flex;
+} 
+ .skill div span{
+     margin: 10px; 
+ }
